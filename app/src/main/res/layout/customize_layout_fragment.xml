@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:padding="5px">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/backgrounditem"
+            android:gravity="center"
+            android:padding="10px"
+            android:text="Ingredients"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+            <TextView
+                android:id="@+id/txtMayo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Mayo"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spnMayo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/backgroundspinner"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorSecondaryLight"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+            <TextView
+                android:id="@+id/txtLettuce"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Lettuce"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/hasLettuce"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/backgroundspinner"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+            <TextView
+                android:id="@+id/txtTomato"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Tomato"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/hasTomato"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/backgroundspinner"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorSecondaryLight"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+            <TextView
+                android:id="@+id/txtOnion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Onion"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/hasOnion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/backgroundspinner"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#aaaaaa"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+            <TextView
+                android:id="@+id/txtMustard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Mustard"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/hasMustard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/backgroundspinner"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorSecondaryLight"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+            <TextView
+                android:id="@+id/txtBBQ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="BBQ"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/hasBBQ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/backgroundspinner"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#aaaaaa"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+            <TextView
+                android:id="@+id/txtRanch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Ranch"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/hasRanch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/backgroundspinner"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorSecondaryLight"
+            android:orientation="horizontal"
+            android:padding="5px">
+
+            <TextView
+                android:id="@+id/txtBacon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Bacon"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/hasBacon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/backgroundspinner"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtBread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Bread"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnWhiteBread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_dark"
+                android:text="White"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btnWheatBread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Wheat"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtSizeCustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="Size"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSmallCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="@drawable/backgroundspinner"
+                android:text="Small"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btnMediumCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="@drawable/backgroundspinner"
+                android:text="Medium"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btnLargeCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="@drawable/backgroundspinner"
+                android:shadowColor="@color/colorSecondary"
+                android:text="Large"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAddToCartCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Add To Cart"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

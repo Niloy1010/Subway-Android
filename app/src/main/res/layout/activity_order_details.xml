@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondaryLight">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/colorSecondaryLight"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorSecondary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/backgroundspinner"
+            android:orientation="horizontal"
+            android:padding="15px">
+
+            <TextView
+                android:id="@+id/txtMayo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Mayo"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hasMayo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backgroundspinner"
+            android:orientation="horizontal"
+            android:padding="15px">
+
+            <TextView
+                android:id="@+id/txtLettuce"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Lettuce"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/hasLettuce"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backgroundspinner"
+            android:orientation="horizontal"
+            android:padding="15px">
+
+            <TextView
+                android:id="@+id/txtTomato"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Tomato"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/hasTomato"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backgroundspinner"
+            android:orientation="horizontal"
+            android:padding="15px">
+
+            <TextView
+                android:id="@+id/txtOnion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Onion"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/hasOnion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backgroundspinner"
+            android:orientation="horizontal"
+            android:padding="15px">
+
+            <TextView
+                android:id="@+id/txtMustard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Mustard"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/hasMustard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backgroundspinner"
+            android:orientation="horizontal"
+            android:padding="15px">
+
+            <TextView
+                android:id="@+id/txtBBQ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="BBQ"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/hasBBQ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backgroundspinner"
+            android:orientation="horizontal"
+            android:padding="15px">
+
+            <TextView
+                android:id="@+id/txtRanch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Ranch"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/hasRanch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backgroundspinner"
+            android:orientation="horizontal"
+            android:padding="15px">
+
+            <TextView
+                android:id="@+id/txtBacon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Bacon"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/hasBacon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backgroundspinner"
+            android:orientation="horizontal"
+            android:padding="15px">
+
+            <TextView
+                android:id="@+id/cheese"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="Cheese"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtDetails"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Quantity"
+            android:textColor="@color/colorSecondary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/incrementButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+
+                android:gravity="center"
+                app:backGroundColor="@color/colorSecondary" />
+
+            <EditText
+                android:id="@+id/sheepNumBox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/rmvCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Remove From Cart"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/updtCart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="50dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Update Cart"
+            android:textColor="@color/colorSecondary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1086799937277",
+    "firebase_url": "https://individualproject-ee6de.firebaseio.com",
+    "project_id": "individualproject-ee6de",
+    "storage_bucket": "individualproject-ee6de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086799937277:android:10d492ce270168d4a74894",
+        "android_client_info": {
+          "package_name": "com.example.firehousesubsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086799937277-g9kvv9lqnmme4imkot6at7tte68b0lhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgoidJkJp476qoZdrg1NnIXskYLW8c7HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086799937277-g9kvv9lqnmme4imkot6at7tte68b0lhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

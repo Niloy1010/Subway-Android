@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtFoodDescription"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondaryLight"
+    tools:context=".AllActivity.OurFoodActivity">
+
+    <ScrollView
+        android:id="@+id/scrollItem"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/foodImg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtFoodName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10px"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="FireHouse Sub"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textColor="@color/colorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtBread"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="Bread"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnWhiteBread"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:layout_weight="1"
+                    android:background="@drawable/backgroundspinner"
+                    android:text="White" />
+
+                <Button
+                    android:id="@+id/btnWheatBread"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:layout_weight="1"
+                    android:background="@drawable/backgroundspinner"
+                    android:text="Wheat" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtSizeCustom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="Size"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSmallCustom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:text="Small"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/btnMediumCustom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:text="Medium"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/btnLargeCustom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:text="Large"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAddToCartCustom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="Add to Cart"
+                    android:textColor="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/btnCustomize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="0px"
+                    android:layout_marginTop="10px"
+                    android:layout_marginRight="0px"
+                    android:layout_marginBottom="10px"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_orange_dark"
+                    android:text="Customize"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHoriz90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHoriz15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Firehouse Subs App</string>
+    <string name="about_page_description" translatable="false">Firehouse Subs is a U.S.-based, fast casual restaurant chain founded in 1994 in Jacksonville, Florida by former firefighter brothers Robin and Chris Sorensen. Firehouse Subs has opened over 1,170 restaurants in 45 states as well as Puerto Rico , Canada and non-traditional locations.</string>
+    <string name="title_activity_locations">Map</string>
+</resources>
